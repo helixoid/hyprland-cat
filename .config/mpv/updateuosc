@@ -1,3 +1,5 @@
+#!/bin/sh
+
 mkdir -pv ~/.config/mpv/script-opts/
 rm -rf ~/.config/mpv/scripts/uosc_shared
 wget -P /tmp/ https://github.com/tomasklaen/uosc/releases/latest/download/uosc.zip
