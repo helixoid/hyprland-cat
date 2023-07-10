@@ -12,6 +12,7 @@
 	"wlr/workspaces": {
 		"disable-scroll": true,
 		"all-outputs": true,
+		"sort-by-number": true,
 		"on-click": "activate",
 		"persistent_workspaces": {
 			"1": [],
