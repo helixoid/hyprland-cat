@@ -29,7 +29,7 @@
 	},
 
 	"clock": {
-		"format": "{:󰥔 %I:%M %p    %a %b %e}",
+		"format": "{:󰥔 %I:%M %p    %a, %b %e}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 	
@@ -39,7 +39,7 @@
     	"format": " "
     },
 
-	"tray": {
+    "tray": {
 		"tooltip": false,
 		"icon-size": 18,
 		"spacing": 10
@@ -47,14 +47,14 @@
 
 	"network": {
 		"tooltip": false,
-		"format-wifi": "󰖩  {bandwidthDownBytes}",
+		"format-wifi": "󰖩 {bandwidthDownBytes}",
 		"format-ethernet": "󰈀 {ipaddr}",
-		"interval": 5
+		"interval": 3
 	},
 
 	"cpu": {
 		"tooltip": false,
-		"format": "󰻠 {}%",
+		"format": " {usage}%",
 		"interval": 3
 	},
 
@@ -66,6 +66,7 @@
 
     "wireplumber": {
     	"tooltip": false,
+    	"on-click": "pavucontrol",
 		"scroll-step": 5,
 		"format": "{icon} {volume}%",
 		"format-muted": "󰝟",
