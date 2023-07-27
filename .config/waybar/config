@@ -46,9 +46,10 @@
 	},		
 
 	"network": {
-		"tooltip": false,
-		"format-wifi": "󰖩 {bandwidthDownBytes}",
+		"tooltip": true,
+		"format-wifi": "󰖩 {essid}",
 		"format-ethernet": "󰈀 {ipaddr}",
+		"tooltip-format": "󰇚 {bandwidthDownBits} | 󰕒 {bandwidthUpBits}",
 		"interval": 3
 	},
 
