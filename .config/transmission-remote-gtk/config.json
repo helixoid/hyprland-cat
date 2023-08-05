@@ -1,0 +1,190 @@
+{
+  "profiles" : [
+    {
+      "profile-name" : "Default",
+      "hostname" : "localhost",
+      "port" : 9091,
+      "rpc-url-path" : "/transmission/rpc",
+      "username" : "",
+      "password" : "",
+      "auto-connect" : true,
+      "ssl" : false,
+      "ssl-validate" : false,
+      "timeout" : 40,
+      "retries" : 3,
+      "update-active-only" : false,
+      "activeonly-fullsync-enabled" : false,
+      "activeonly-fullsync-every" : 2,
+      "update-interval" : 3,
+      "min-update-interval" : 3,
+      "session-update-interval" : 60,
+      "last-move-destination" : "/home/ayush/Downloads/Torrents/Anime",
+      "custom-headers" : [],
+      "exec-commands" : [],
+      "destinations" : [
+        {
+          "label" : "/mnt/HDD/Books",
+          "dir" : null
+        }
+      ]
+    }
+  ],
+  "profile-id" : 0,
+  "tree-views" : {
+    "TrgTorrentTreeView" : {
+      "sort-col" : -1,
+      "sort-type" : 0
+    },
+    "TrgTrackersTreeView" : {
+      "sort-col" : -2,
+      "sort-type" : 0,
+      "widths" : [
+        116,
+        192,
+        128,
+        183,
+        190,
+        193,
+        166,
+        170
+      ],
+      "columns" : [
+        "tier",
+        "announce-url",
+        "last-announce-peer-count",
+        "seeder-count",
+        "leecher-count",
+        "last-announce-time",
+        "last-result",
+        "scrape-url"
+      ]
+    },
+    "TrgFilesTreeView" : {
+      "sort-col" : -2,
+      "sort-type" : 0,
+      "widths" : [
+        258,
+        244,
+        278,
+        288,
+        270
+      ],
+      "columns" : [
+        "name",
+        "size",
+        "progress",
+        "wanted",
+        "priority"
+      ]
+    },
+    "TrgPeersTreeView" : {
+      "sort-col" : -2,
+      "sort-type" : 0,
+      "widths" : [
+        134,
+        151,
+        174,
+        205,
+        184,
+        179,
+        154,
+        157
+      ],
+      "columns" : [
+        "ip",
+        "host",
+        "country",
+        "down-speed",
+        "up-speed",
+        "progress",
+        "flags",
+        "client"
+      ]
+    },
+    "TrgFilesTreeView-dialog" : {
+      "sort-col" : -2,
+      "sort-type" : 0,
+      "widths" : [
+        277,
+        91,
+        100,
+        110,
+        92
+      ],
+      "columns" : [
+        "name",
+        "size",
+        "progress",
+        "wanted",
+        "priority"
+      ]
+    },
+    "TrgPeersTreeView-dialog" : {
+      "sort-col" : 8,
+      "sort-type" : 1,
+      "widths" : [
+        306,
+        294,
+        154,
+        118,
+        97,
+        92,
+        67,
+        195
+      ],
+      "columns" : [
+        "ip",
+        "host",
+        "country",
+        "down-speed",
+        "up-speed",
+        "progress",
+        "flags",
+        "client"
+      ]
+    },
+    "TrgTrackersTreeView-dialog" : {
+      "sort-col" : -2,
+      "sort-type" : 0,
+      "widths" : [
+        39,
+        309,
+        51,
+        106,
+        113,
+        142,
+        89,
+        286
+      ],
+      "columns" : [
+        "tier",
+        "announce-url",
+        "last-announce-peer-count",
+        "seeder-count",
+        "leecher-count",
+        "last-announce-time",
+        "last-result",
+        "scrape-url"
+      ]
+    }
+  },
+  "window-height" : 701,
+  "window-width" : 1340,
+  "notebook-paned-pos" : 300,
+  "states-paned-pos" : 120,
+  "start-paused" : false,
+  "add-options-dialog" : true,
+  "delete-local-torrent" : false,
+  "show-state-selector" : true,
+  "filter-dirs" : true,
+  "filter-trackers" : true,
+  "directories-first" : true,
+  "show-notebook" : false,
+  "system-tray" : false,
+  "system-tray-minimise" : false,
+  "add-notify" : false,
+  "complete-notify" : false,
+  "state-selector-last" : 8,
+  "dialog-width" : 700,
+  "dialog-height" : 600
+}
