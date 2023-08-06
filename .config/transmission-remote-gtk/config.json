@@ -18,7 +18,7 @@
       "update-interval" : 3,
       "min-update-interval" : 3,
       "session-update-interval" : 60,
-      "last-move-destination" : "/home/ayush/Downloads/Torrents/Anime",
+      "last-move-destination" : "/mnt/HDD/Books/Manga",
       "custom-headers" : [],
       "exec-commands" : [],
       "destinations" : [
@@ -26,27 +26,28 @@
           "label" : "/mnt/HDD/Books",
           "dir" : null
         }
-      ]
+      ],
+      "last-add-destination" : "/home/ayush/Downloads/Torrents/Music"
     }
   ],
   "profile-id" : 0,
   "tree-views" : {
     "TrgTorrentTreeView" : {
-      "sort-col" : -1,
-      "sort-type" : 0
+      "sort-col" : 14,
+      "sort-type" : 1
     },
     "TrgTrackersTreeView" : {
       "sort-col" : -2,
       "sort-type" : 0,
       "widths" : [
-        116,
-        192,
-        128,
-        183,
-        190,
-        193,
-        166,
-        170
+        50,
+        320,
+        62,
+        117,
+        124,
+        153,
+        214,
+        298
       ],
       "columns" : [
         "tier",
@@ -63,11 +64,11 @@
       "sort-col" : -2,
       "sort-type" : 0,
       "widths" : [
-        258,
-        244,
-        278,
-        288,
-        270
+        621,
+        177,
+        180,
+        190,
+        170
       ],
       "columns" : [
         "name",
@@ -78,17 +79,17 @@
       ]
     },
     "TrgPeersTreeView" : {
-      "sort-col" : -2,
+      "sort-col" : 9,
       "sort-type" : 0,
       "widths" : [
-        134,
-        151,
-        174,
-        205,
-        184,
-        179,
+        198,
+        120,
         154,
-        157
+        174,
+        153,
+        148,
+        123,
+        268
       ],
       "columns" : [
         "ip",
@@ -105,11 +106,11 @@
       "sort-col" : -2,
       "sort-type" : 0,
       "widths" : [
-        277,
+        307,
         91,
+        90,
         100,
-        110,
-        92
+        82
       ],
       "columns" : [
         "name",
@@ -123,14 +124,14 @@
       "sort-col" : 8,
       "sort-type" : 1,
       "widths" : [
-        306,
-        294,
-        154,
-        118,
-        97,
-        92,
-        67,
-        195
+        64,
+        83,
+        106,
+        137,
+        116,
+        111,
+        86,
+        91
       ],
       "columns" : [
         "ip",
@@ -147,13 +148,13 @@
       "sort-col" : -2,
       "sort-type" : 0,
       "widths" : [
-        39,
+        57,
         309,
-        51,
-        106,
-        113,
+        69,
+        124,
+        131,
         142,
-        89,
+        107,
         286
       ],
       "columns" : [
@@ -170,21 +171,21 @@
   },
   "window-height" : 701,
   "window-width" : 1340,
-  "notebook-paned-pos" : 300,
+  "notebook-paned-pos" : 361,
   "states-paned-pos" : 120,
   "start-paused" : false,
   "add-options-dialog" : true,
-  "delete-local-torrent" : false,
+  "delete-local-torrent" : true,
   "show-state-selector" : true,
   "filter-dirs" : true,
   "filter-trackers" : true,
   "directories-first" : true,
-  "show-notebook" : false,
+  "show-notebook" : true,
   "system-tray" : false,
   "system-tray-minimise" : false,
-  "add-notify" : false,
-  "complete-notify" : false,
-  "state-selector-last" : 8,
+  "add-notify" : true,
+  "complete-notify" : true,
+  "state-selector-last" : 0,
   "dialog-width" : 700,
   "dialog-height" : 600
 }

@@ -49,7 +49,7 @@
 		"tooltip": true,
 		"format-wifi": "󰖩 {essid}",
 		"format-ethernet": "󰈀 {ipaddr}",
-		"tooltip-format": "󰇚 {bandwidthDownBits} | 󰕒 {bandwidthUpBits}",
+		"tooltip-format": "󰩠 {ipaddr} | 󰇚 {bandwidthDownBits} | 󰕒 {bandwidthUpBits}",
 		"interval": 3
 	},
 
