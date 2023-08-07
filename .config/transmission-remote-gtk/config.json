@@ -5,20 +5,21 @@
       "hostname" : "localhost",
       "port" : 9091,
       "rpc-url-path" : "/transmission/rpc",
-      "username" : "",
-      "password" : "",
+      "username" : "ayush",
+      "password" : "rupam",
       "auto-connect" : true,
       "ssl" : false,
       "ssl-validate" : false,
       "timeout" : 40,
       "retries" : 3,
-      "update-active-only" : false,
+      "update-active-only" : true,
       "activeonly-fullsync-enabled" : false,
       "activeonly-fullsync-every" : 2,
-      "update-interval" : 3,
+      "update-interval" : 1,
       "min-update-interval" : 3,
       "session-update-interval" : 60,
       "last-move-destination" : "/mnt/HDD/Books/Manga",
+      "last-add-destination" : "/home/ayush/Downloads/Torrents/P",
       "custom-headers" : [],
       "exec-commands" : [],
       "destinations" : [
@@ -26,28 +27,27 @@
           "label" : "/mnt/HDD/Books",
           "dir" : null
         }
-      ],
-      "last-add-destination" : "/home/ayush/Downloads/Torrents/Music"
+      ]
     }
   ],
   "profile-id" : 0,
   "tree-views" : {
     "TrgTorrentTreeView" : {
-      "sort-col" : 14,
-      "sort-type" : 1
+      "sort-col" : 1,
+      "sort-type" : 0
     },
     "TrgTrackersTreeView" : {
       "sort-col" : -2,
       "sort-type" : 0,
       "widths" : [
-        50,
-        320,
-        62,
-        117,
-        124,
-        153,
-        214,
-        298
+        116,
+        192,
+        128,
+        183,
+        190,
+        193,
+        166,
+        170
       ],
       "columns" : [
         "tier",
@@ -64,11 +64,11 @@
       "sort-col" : -2,
       "sort-type" : 0,
       "widths" : [
-        621,
-        177,
-        180,
-        190,
-        170
+        258,
+        244,
+        278,
+        288,
+        270
       ],
       "columns" : [
         "name",
@@ -79,17 +79,17 @@
       ]
     },
     "TrgPeersTreeView" : {
-      "sort-col" : 9,
-      "sort-type" : 0,
+      "sort-col" : 7,
+      "sort-type" : 1,
       "widths" : [
-        198,
-        120,
-        154,
-        174,
-        153,
-        148,
-        123,
-        268
+        170,
+        262,
+        141,
+        172,
+        151,
+        146,
+        121,
+        175
       ],
       "columns" : [
         "ip",
@@ -106,11 +106,11 @@
       "sort-col" : -2,
       "sort-type" : 0,
       "widths" : [
-        307,
-        91,
-        90,
-        100,
-        82
+        437,
+        75,
+        74,
+        84,
+        64
       ],
       "columns" : [
         "name",
@@ -124,14 +124,14 @@
       "sort-col" : 8,
       "sort-type" : 1,
       "widths" : [
-        64,
-        83,
-        106,
-        137,
-        116,
-        111,
-        86,
-        91
+        124,
+        46,
+        88,
+        100,
+        97,
+        74,
+        49,
+        195
       ],
       "columns" : [
         "ip",
@@ -148,13 +148,13 @@
       "sort-col" : -2,
       "sort-type" : 0,
       "widths" : [
-        57,
+        39,
         309,
-        69,
-        124,
-        131,
+        51,
+        106,
+        113,
         142,
-        107,
+        89,
         286
       ],
       "columns" : [
@@ -185,7 +185,7 @@
   "system-tray-minimise" : false,
   "add-notify" : true,
   "complete-notify" : true,
-  "state-selector-last" : 0,
+  "state-selector-last" : 8,
   "dialog-width" : 700,
   "dialog-height" : 600
 }
