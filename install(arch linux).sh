@@ -17,7 +17,7 @@ makepkg -si
 # Installing Necessary Packages
 paru -S --needed --noconfirm hyprland
 
-paru -S --needed --noconfirm waybar fuzzel mako dolphin sddm nwg-look-bin mpv yt-dlp kitty wlsunset wlogout swaylock-effects kvantum qt5ct qt6ct qt5-wayland qt6-wayland transmission-cli telegram-desktop sublime-text-4 swayidle swaybg mpd ncmpcpp ark okular neofetch network-manager-applet bottom pavucontrol vnstat wl-clipboard cliphist gnome-disk-utility fish starship firewalld brightnessctl imv noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-jetbrains-mono-nerd intel-gpu-tools polkit-kde-agent xdg-desktop-portal-hyprland tremc-git grimblast newsboat bat plymouth
+paru -S --needed --noconfirm waybar fuzzel mako dolphin sddm nwg-look-bin mpv yt-dlp kitty wlsunset wlogout swaylock-effects kvantum qt5ct qt6ct qt5-wayland qt6-wayland transmission-cli telegram-desktop sublime-text-4 swayidle swaybg mpd ncmpcpp ark okular neofetch network-manager-applet bottom pavucontrol vnstat wl-clipboard cliphist gnome-disk-utility fish starship firewalld brightnessctl imv noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-jetbrains-mono-nerd intel-gpu-tools polkit-kde-agent xdg-desktop-portal-hyprland tremc-git grimblast newsboat bat plymouth papirus-icon-theme
 
 # Installing Intel Hardware Decoding Driver
 paru -S --needed --noconfirm intel-media-driver
