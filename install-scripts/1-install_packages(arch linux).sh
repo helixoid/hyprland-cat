@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Installing Necessary Packages
-paru -S --needed --noconfirm hyprland waybar rofi-lbonn-wayland xdg-desktop-portal-hyprland dunst
+paru -S --needed --noconfirm hyprland waybar rofi-lbonn-wayland-git xdg-desktop-portal-hyprland dunst
 
 paru -S --needed --noconfirm dolphin sddm nwg-look-bin mpv yt-dlp
 
@@ -19,9 +19,11 @@ paru -S --needed --noconfirm fish starship firewalld brightnessctl imv
 
 paru -S --needed --noconfirm noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-jetbrains-mono-nerd
 
-paru -S --needed --noconfirm intel-gpu-tools polkit-kde-agent  tremc-git grim bemoji
+paru -S --needed --noconfirm intel-gpu-tools polkit-kde-agent tremc-git grim bemoji
 
-paru -S --needed --noconfirm slurp swappy pamixer newsboat bat plymouth papirus-icon-theme
+paru -S --needed --noconfirm slurp swappy pamixer newsboat bat
+
+paru -S --needed --noconfirm plymouth papirus-icon-theme bibata-cursor-theme-bin sddm-theme-sugar-candy-git
 
 # Installing Intel Hardware Decoding Driver
 paru -S --needed --noconfirm intel-media-driver
