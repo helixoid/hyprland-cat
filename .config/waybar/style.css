@@ -1,9 +1,10 @@
 @import "mocha.css";
 * {
 	border: none;
-	border-radius: 0;
-	font-family: "JetBrainsMono Nerd Font";
-	font-size: 15px;
+	border-radius: 10px;
+	font-family: JetBrainsMono Nerd Font;
+	font-size: 18px;
+	font-weight: bold;
 	min-height: 0;
 }
 
@@ -19,7 +20,7 @@ window#waybar.hidden {
 	margin-top: 8px;
 	padding-left: 16px;
 	padding-right: 16px;
-	border-radius: 26px;
+	border-radius: 10px;
 	transition: none;
 	color: transparent;
 	background: transparent;
@@ -44,7 +45,9 @@ tooltip {
 #workspaces {
 	margin-top: 8px;
 	margin-bottom: 0px;
-	border-radius: 26px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 10px;
 	transition: none;
 	background: @base;
 }
@@ -70,36 +73,73 @@ tooltip {
 #clock { 
 	margin-top: 8px;
 	margin-bottom: 0px;
-	margin-left: 10px;
+	margin-left: 5px;
 	padding-left: 16px;
 	padding-right: 16px;
-	border-radius: 26px;
+	border-radius: 10px;
 	transition: none;
 	color: @flamingo;
 	background: @base;
 }
 
-#custom-swww { 
-	margin-top: 8px;
+#mpd.2 {
+    margin-top: 8px;
 	margin-bottom: 0px;
 	margin-left: 8px;
+	margin-right: 0px;
 	padding-left: 16px;
-	padding-right: 16px;
-	border-radius: 26px;
+	padding-right: 10px;
+	border-radius: 10px 0px 0px 10px;
 	transition: none;
-	color: @white;
+	color: @pink;
 	background: @base;
-} 
+}
+
+#mpd.3 {
+    margin-top: 8px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 0px;
+	transition: none;
+	color: @pink;
+	background: @base;
+}
+
+#mpd.4 {
+    margin-top: 8px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 10px;
+	padding-right: 16px;
+	border-radius: 0px 10px 10px 0px;
+	transition: none;
+	color: @pink;
+	background: @base;
+}
 
 #tray {
 	margin-top: 8px;
 	margin-bottom: 0px;
+	margin-left: 8px;
+	padding-left: 0px;
+	padding-right: 16px;
+	border-radius: 10px;
+	transition: none;
+	color: @white;
+	background: @base;
+}
+
+#mpd {
+    margin-top: 8px;
+	margin-bottom: 0px;
 	margin-right: 8px;
 	padding-left: 16px;
 	padding-right: 16px;
-	border-radius: 26px;
+	border-radius: 10px;
 	transition: none;
-	color: @white;
+	color: @flamingo;
 	background: @base;
 }
 
@@ -108,7 +148,7 @@ tooltip {
 	margin-bottom: 0px;
 	padding-left: 16px;
 	padding-right: 0px;
-	border-radius: 26px 0px 0px 26px;
+	border-radius: 10px 0px 0px 10px;
 	transition: none;
 	color: @green;
 	background: @base;
@@ -142,10 +182,10 @@ tooltip {
 	margin-top: 8px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	margin-right: 10px;
+	margin-right: 5px;
 	padding-left: 16px;
 	padding-right: 16px;
-	border-radius: 0px 26px 26px 0px;
+	border-radius: 0px 10px 10px 0px;
 	transition: none;
 	color: @pink;
 	background: @base;

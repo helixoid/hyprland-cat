@@ -5,9 +5,9 @@
 	"exclusive": true,
 	"passthrough": false,
 	"gtk-layer-shell": true,
-	"modules-left": ["clock", "custom/swww"],
+	"modules-left": ["clock", "mpd#2", "mpd#3", "mpd#4", "tray"],
 	"modules-center": ["wlr/workspaces"],
-	"modules-right": ["tray", "network", "cpu", "backlight", "pulseaudio"],
+	"modules-right": ["mpd", "network", "cpu", "backlight", "pulseaudio"],
 
 	"wlr/workspaces": {
 		"disable-scroll": true,
@@ -29,14 +29,50 @@
 	},
 
 	"clock": {
-		"format": "{:󰥔 %I:%M %p    %a, %b %e}",
+		"format": "{:󰥔 %I:%M %p   %a, %b %e}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 	
-    "custom/swww": {
-    	"tooltip": false,
-    	"on-click": "$HOME/.config/hypr/scripts/swww-randomizer",
-    	"format": " "
+    "mpd": {
+        "tooltip": true,
+        "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
+        "format": "󰝚 {elapsedTime:%M:%S}",
+        "format-disconnected": "󰦚 MPD Disconnected",
+        "format-stopped": "󰝛",
+        "on-click": "mpc toggle",
+        "state-icons": {
+            "playing": "",
+            "paused": ""
+        }
+    },
+    
+    "mpd#2": {
+        "format": "" ,
+        "format-disconnected": "",
+        "format-paused": "",
+        "format-stopped": "",
+        "on-click": "mpc -q pause && mpc -q prev && mpc -q start",
+    },
+    
+    "mpd#3": {
+        "interval": 1,
+        "format": "{stateIcon}",
+        "format-disconnected": "",
+        "format-paused": "{stateIcon}",
+        "format-stopped": "",
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "on-click": "mpc toggle",
+    },
+    
+    "mpd#4": {
+        "format": "",
+        "format-disconnected": "",
+        "format-paused": "",
+        "format-stopped": "",
+        "on-click": "mpc -q pause && mpc -q next && mpc -q start",
     },
 
     "tray": {

@@ -9,7 +9,7 @@ paru -S --needed --noconfirm kitty swaylock-effects kvantum qt5ct qt6ct
 
 paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland transmission-cli telegram-desktop
 
-paru -S --needed --noconfirm sublime-text-4 swayidle swaybg mpd ncmpcpp
+paru -S --needed --noconfirm sublime-text-4 swayidle swaybg mpd mpc ncmpcpp
 
 paru -S --needed --noconfirm ark okular neofetch network-manager-applet bottom
 
@@ -17,7 +17,7 @@ paru -S --needed --noconfirm pavucontrol vnstat wl-clipboard cliphist gnome-disk
 
 paru -S --needed --noconfirm fish starship firewalld brightnessctl imv
 
-paru -S --needed --noconfirm noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-jetbrains-mono-nerd
+paru -S --needed --noconfirm noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji
 
 paru -S --needed --noconfirm intel-gpu-tools polkit-kde-agent tremc-git grim bemoji
 

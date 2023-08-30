@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
 # Installing Dotfiles
-cd hyprland-cat
+cd $HOME/hyprland-cat
 cp -R .config ~/
 cp -R .icons ~/
 cp -R .themes ~/
+cp -R .fonts ~/
 cp -R .newsboat ~/
-cp -R Walls ~/Pictures/
+cp -R Wallpapers ~/
 cd
