@@ -14,18 +14,11 @@
 		"all-outputs": true,
 		"sort-by-number": true,
 		"on-click": "activate",
-		"persistent_workspaces": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": [],
-			"6": [],
-			"7": [],
-			"8": [],
-			"9": [],
-			"10": []
-		}
+		"format": "{icon}",
+		"format-icons": {
+			"active": "󰮯",
+			"default": "󰊠"
+		},
 	},
 
 	"clock": {
@@ -33,25 +26,13 @@
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 	
-    "mpd": {
-        "tooltip": true,
-        "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
-        "format": "󰝚 {elapsedTime:%M:%S}",
-        "format-disconnected": "󰦚 MPD Disconnected",
-        "format-stopped": "󰝛",
-        "on-click": "mpc toggle",
-        "state-icons": {
-            "playing": "",
-            "paused": ""
-        }
-    },
-    
     "mpd#2": {
         "format": "" ,
         "format-disconnected": "",
         "format-paused": "",
         "format-stopped": "",
         "on-click": "mpc -q pause && mpc -q prev && mpc -q start",
+        "interval": 1
     },
     
     "mpd#3": {
@@ -65,6 +46,7 @@
             "playing": ""
         },
         "on-click": "mpc toggle",
+        "interval": 1
     },
     
     "mpd#4": {
@@ -73,13 +55,24 @@
         "format-paused": "",
         "format-stopped": "",
         "on-click": "mpc -q pause && mpc -q next && mpc -q start",
+        "interval": 1
     },
 
     "tray": {
 		"tooltip": false,
 		"icon-size": 18,
 		"spacing": 10
-	},		
+	},
+
+	"mpd": {
+        "tooltip": true,
+        "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
+        "format": "󰝚 {elapsedTime:%M:%S}",
+        "format-disconnected": "󰦚 MPD Disconnected",
+        "format-stopped": "󰝛",
+        "on-click": "mpc toggle",
+        "interval": 1
+    },		
 
 	"network": {
 		"tooltip": true,
