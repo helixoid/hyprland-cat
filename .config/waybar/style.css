@@ -29,18 +29,18 @@ tooltip {
 
 #workspaces button {
 	transition: none;
-	color: @red;
+	color: @yellow;
 }
 
 #workspaces button.active { 
-	color: @yellow;
+	color: @green;
 }
 
 #workspaces button:hover { 
 	box-shadow: inherit;
 	text-shadow: inherit;
 	transition: none;
-	color: @green;
+	color: @white;
 }
 
 #clock { 
@@ -123,7 +123,7 @@ tooltip {
 	padding-right: 0px;
 	border-radius: 10px 0px 0px 10px;
 	transition: none;
-	color: @green;
+	color: @teal;
 	background: @base;
 }
 

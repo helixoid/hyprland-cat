@@ -16,8 +16,8 @@
 		"on-click": "activate",
 		"format": "{icon}",
 		"format-icons": {
-			"active": "󰮯",
-			"default": "󰊠"
+			"active": "",
+			"default": "󱡝"
 		},
 	},
 
