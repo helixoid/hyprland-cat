@@ -2,7 +2,6 @@
 * {
 	font-family: "Symbols Nerd Font Mono, JetBrains Mono";
 	font-size: 18px;
-	font-weight: bold;
 }
 
 window#waybar {
@@ -34,6 +33,10 @@ tooltip {
 
 #workspaces button.active { 
 	color: @green;
+}
+
+#workspaces button.urgent {
+	color: @red;
 }
 
 #workspaces button:hover { 

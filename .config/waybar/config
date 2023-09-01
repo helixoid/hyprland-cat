@@ -17,20 +17,21 @@
 		"format": "{icon}",
 		"format-icons": {
 			"active": "",
-			"default": "󱡝"
+			"default": "",
+			"urgent": ""
 		},
 	},
 
 	"clock": {
-		"format": "{:  %I:%M %p      (%a) %b %e}",
+		"format": "{:󰥔 %I:%M %p    (%a) %b %e}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 	
     "mpd#2": {
-        "format": "󰙤" ,
-        "format-disconnected": "󰙤",
-        "format-paused": "󰙤",
-        "format-stopped": "󰙤",
+        "format": "󰙣" ,
+        "format-disconnected": "󰙣",
+        "format-paused": "󰙣",
+        "format-stopped": "󰙣",
         "on-click": "mpc -q pause && mpc -q prev && mpc -q start",
         "interval": 1
     },
@@ -38,22 +39,22 @@
     "mpd#3": {
         "interval": 1,
         "format": "{stateIcon}",
-        "format-disconnected": "",
+        "format-disconnected": "",
         "format-paused": "{stateIcon}",
-        "format-stopped": "",
+        "format-stopped": "",
         "state-icons": {
-            "paused": "",
-            "playing": "󰏦"
+            "paused": "",
+            "playing": ""
         },
         "on-click": "mpc toggle",
         "interval": 1
     },
     
     "mpd#4": {
-        "format": "󰙢",
-        "format-disconnected": "󰙢",
-        "format-paused": "󰙢",
-        "format-stopped": "󰙢",
+        "format": "󰙡",
+        "format-disconnected": "󰙡",
+        "format-paused": "󰙡",
+        "format-stopped": "󰙡",
         "on-click": "mpc -q pause && mpc -q next && mpc -q start",
         "interval": 1
     },
@@ -68,7 +69,7 @@
         "tooltip": true,
         "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
         "format": "󰝚  {elapsedTime:%M:%S}",
-        "format-disconnected": "󰦚  MPD Disconnected",
+        "format-disconnected": "󰦚 MPD Disconnected",
         "format-stopped": "󰝛",
         "on-click": "mpc toggle",
         "interval": 1
@@ -76,15 +77,15 @@
 
 	"network": {
 		"tooltip": true,
-		"format-wifi": "󰖩  {essid}",
-		"format-ethernet": "󰈀  {ipaddr}",
-		"tooltip-format": "󰩠  {ipaddr} | 󰇚  {bandwidthDownBits} | 󰕒  {bandwidthUpBits}",
+		"format-wifi": "󰤨 {essid}",
+		"format-ethernet": "󰈀 {ipaddr}",
+		"tooltip-format": "󰩠 {ipaddr} | 󰇚 {bandwidthDownBits} | 󰕒 {bandwidthUpBits}",
 		"interval": 3
 	},
 
 	"cpu": {
 		"tooltip": false,
-		"format": "  {usage}%",
+		"format": " {usage}%",
 		"interval": 3
 	},
 
@@ -99,15 +100,15 @@
     	"on-click": "pavucontrol",
 		"scroll-step": 5,
 		"format": "{icon}  {volume}%",
-		"format-muted": "󰝟",
+		"format-muted": "󰖁",
 		"format-icons": {
-			"headphone": "",
-            "hands-free": "",
-            "headset": "",
+			"headphone": "󰋋",
+            "hands-free": "󰋋",
+            "headset": "󰋋",
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": ["󰕿", "󰖀", "󰕾"]
         }
 	}
 }
