@@ -117,7 +117,7 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "Search Clipboard...";
+    placeholder:                 "Search Emoji...";
     placeholder-color:           inherit;
 }
 num-filtered-rows {
@@ -134,7 +134,7 @@ textbox-num-sep {
     text-color:                  inherit;
 }
 num-rows {
-    enabled:                     true;
+    enabled:                     false;
     expand:                      false;
     background-color:            inherit;
     text-color:                  inherit;
@@ -148,7 +148,7 @@ case-indicator {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     1;
+    columns:                     2;
     lines:                       10;
     cycle:                       true;
     dynamic:                     true;
