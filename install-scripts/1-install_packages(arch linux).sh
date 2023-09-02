@@ -17,13 +17,13 @@ paru -S --needed --noconfirm pavucontrol vnstat wl-clipboard cliphist gnome-disk
 
 paru -S --needed --noconfirm fish starship firewalld brightnessctl imv
 
-paru -S --needed --noconfirm noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji
+paru -S --needed --noconfirm noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji ttf-nerd-fonts-symbols
 
 paru -S --needed --noconfirm intel-gpu-tools polkit-kde-agent tremc-git grim bemoji
 
 paru -S --needed --noconfirm slurp swappy pamixer newsboat bat
 
-paru -S --needed --noconfirm plymouth papirus-icon-theme bibata-cursor-theme-bin sddm-theme-sugar-candy-git
+paru -S --needed --noconfirm plymouth papirus-icon-theme bibata-cursor-theme-bin sddm-theme-sugar-candy-git ttf-jetbrains-mono
 
 # Installing Intel Hardware Decoding Driver
 paru -S --needed --noconfirm intel-media-driver
