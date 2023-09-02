@@ -6,10 +6,10 @@
 	"passthrough": false,
 	"gtk-layer-shell": true,
 	"modules-left": ["clock", "mpd#2", "mpd#3", "mpd#4", "tray"],
-	"modules-center": ["wlr/workspaces"],
+	"modules-center": ["hyprland/workspaces"],
 	"modules-right": ["mpd", "network", "cpu", "backlight", "pulseaudio"],
 
-	"wlr/workspaces": {
+	"hyprland/workspaces": {
 		"disable-scroll": true,
 		"all-outputs": true,
 		"sort-by-number": true,
