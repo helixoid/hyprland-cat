@@ -22,12 +22,10 @@ tooltip {
 	padding-left: 15px;
 	padding-right: 15px;
 	border-radius: 8px;
-	transition: none;
 	background: @base;
 }
 
 #workspaces button {
-	transition: none;
 	color: @yellow;
 }
 

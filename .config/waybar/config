@@ -18,20 +18,20 @@
 		"format-icons": {
 			"active": "",
 			"default": "",
-			"urgent": ""
+			"urgent": "󰗖"
 		},
 	},
 
 	"clock": {
-		"format": "{:󰥔 %I:%M %p    (%a) %b %e}",
+		"format": "{: %I:%M %p   %a, %b %e}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 	
     "mpd#2": {
-        "format": "󰙣" ,
-        "format-disconnected": "󰙣",
-        "format-paused": "󰙣",
-        "format-stopped": "󰙣",
+        "format": "" ,
+        "format-disconnected": "",
+        "format-paused": "",
+        "format-stopped": "",
         "on-click": "mpc -q pause && mpc -q prev && mpc -q start",
         "interval": 1
     },
@@ -39,22 +39,22 @@
     "mpd#3": {
         "interval": 1,
         "format": "{stateIcon}",
-        "format-disconnected": "",
+        "format-disconnected": "",
         "format-paused": "{stateIcon}",
-        "format-stopped": "",
+        "format-stopped": "",
         "state-icons": {
-            "paused": "",
-            "playing": ""
+            "paused": "",
+            "playing": ""
         },
         "on-click": "mpc toggle",
         "interval": 1
     },
     
     "mpd#4": {
-        "format": "󰙡",
-        "format-disconnected": "󰙡",
-        "format-paused": "󰙡",
-        "format-stopped": "󰙡",
+        "format": "",
+        "format-disconnected": "",
+        "format-paused": "",
+        "format-stopped": "",
         "on-click": "mpc -q pause && mpc -q next && mpc -q start",
         "interval": 1
     },
