@@ -5,7 +5,7 @@
 	"exclusive": true,
 	"passthrough": false,
 	"gtk-layer-shell": true,
-	"modules-left": ["clock", "mpd#2", "mpd#3", "mpd#4", "tray"],
+	"modules-left": ["clock", "custom/separator", "clock#2", "mpd#2", "mpd#3", "mpd#4", "tray"],
 	"modules-center": ["hyprland/workspaces"],
 	"modules-right": ["mpd", "network", "cpu", "backlight", "pulseaudio"],
 
@@ -16,17 +16,27 @@
 		"on-click": "activate",
 		"format": "{icon}",
 		"format-icons": {
-			"active": "",
-			"default": "",
-			"urgent": "󰗖"
+			"active": "󰻃",
+			"default": "󰪥",
+			"urgent": "󰀨"
 		},
 	},
 
 	"clock": {
-		"format": "{: %I:%M %p   %a, %b %e}",
+		"format": "{:󰥔  %I:%M %p}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 	
+    "custom/separator": {
+    	"tooltip": false,
+    	"format": "󰇘",
+    },
+
+    "clock#2": {
+    	"format": "{:󰃭  %a - %b %e}",
+    	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
     "mpd#2": {
         "format": "" ,
         "format-disconnected": "",
@@ -77,15 +87,15 @@
 
 	"network": {
 		"tooltip": true,
-		"format-wifi": "󰤨 {essid}",
-		"format-ethernet": "󰈀 {ipaddr}",
-		"tooltip-format": "󰩠 {ipaddr} | 󰇚 {bandwidthDownBits} | 󰕒 {bandwidthUpBits}",
+		"format-wifi": "󰤨  {essid}",
+		"format-ethernet": "󰈀  {ipaddr}",
+		"tooltip-format": "󰩠  {ipaddr} | 󰇚  {bandwidthDownBits} | 󰕒  {bandwidthUpBits}",
 		"interval": 3
 	},
 
 	"cpu": {
 		"tooltip": false,
-		"format": " {usage}%",
+		"format": "  {usage}%",
 		"interval": 3
 	},
 
