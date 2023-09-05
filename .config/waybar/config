@@ -16,9 +16,9 @@
 		"on-click": "activate",
 		"format": "{icon}",
 		"format-icons": {
-			"active": "󰻃",
-			"default": "󰪥",
-			"urgent": "󰀨"
+			"active": "",
+			"default": "",
+			"urgent": ""
 		},
 	},
 
@@ -29,7 +29,7 @@
 	
     "custom/separator": {
     	"tooltip": false,
-    	"format": "󰇘",
+    	"format": "󰇘"
     },
 
     "clock#2": {
@@ -79,15 +79,15 @@
         "tooltip": true,
         "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
         "format": "󰝚  {elapsedTime:%M:%S}",
-        "format-disconnected": "󰦚 MPD Disconnected",
-        "format-stopped": "󰝛",
+        "format-disconnected": "󰝛  MPD Disconnected",
+        "format-stopped": "󰝚",
         "on-click": "mpc toggle",
         "interval": 1
     },		
 
 	"network": {
 		"tooltip": true,
-		"format-wifi": "󰤨  {essid}",
+		"format-wifi": "  {essid}",
 		"format-ethernet": "󰈀  {ipaddr}",
 		"tooltip-format": "󰩠  {ipaddr} | 󰇚  {bandwidthDownBits} | 󰕒  {bandwidthUpBits}",
 		"interval": 3
@@ -112,12 +112,8 @@
 		"format": "{icon}  {volume}%",
 		"format-muted": "󰖁",
 		"format-icons": {
-			"headphone": "󰋋",
-            "hands-free": "󰋋",
-            "headset": "󰋋",
-            "phone": "",
-            "portable": "",
-            "car": "",
+			"headphone": "",
+            "headset": "󰋎",
             "default": ["󰕿", "󰖀", "󰕾"]
         }
 	}
