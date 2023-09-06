@@ -10,6 +10,6 @@ cd paru-bin
 makepkg -si 
 
 # Endeavour OS
-yay -S paru-bin
-paru -Rns yay
-paru -Rns xterm
+#yay -S paru-bin
+#paru -Rns yay
+#paru -Rns xterm
