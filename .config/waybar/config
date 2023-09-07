@@ -1,10 +1,6 @@
 {
 	"layer": "top",
 	"position": "top",
-	"mod": "dock",
-	"exclusive": true,
-	"passthrough": false,
-	"gtk-layer-shell": true,
 	"modules-left": ["clock", "custom/separator", "clock#2", "mpd#2", "mpd#3", "mpd#4", "tray"],
 	"modules-center": ["hyprland/workspaces"],
 	"modules-right": ["mpd", "network", "cpu", "backlight", "pulseaudio"],
