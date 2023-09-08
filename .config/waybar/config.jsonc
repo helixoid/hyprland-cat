@@ -7,7 +7,7 @@
 	"margin-left": 5,
 	"margin-right": 5,
 	"spacing": 15,
-	"modules-left": ["clock", "custom/separator", "clock#2", "custom/player"],
+	"modules-left": ["clock#2", "custom/separator", "clock", "custom/player"],
 	"modules-center": ["hyprland/workspaces"],
 	"modules-right": ["tray", "network", "cpu", "backlight", "pulseaudio"],
 
@@ -35,7 +35,7 @@
     },
 
     "clock#2": {
-    	"format": "{: %a, %b %e}",
+    	"format": "{: %a - %b %e}",
     	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 
