@@ -1,9 +1,15 @@
+/* For Icons Alignments use "<span font_family='Material Icons' rise='-4000' size='large'>" before putting icons in format section. */
+
 {
 	"layer": "top",
 	"position": "top",
-	"modules-left": ["clock", "custom/separator", "clock#2", "mpd#2", "mpd#3", "mpd#4", "tray"],
+	"margin-top": 5,
+	"margin-left": 5,
+	"margin-right": 5,
+	"spacing": 15,
+	"modules-left": ["clock", "custom/separator", "clock#2", "custom/player"],
 	"modules-center": ["hyprland/workspaces"],
-	"modules-right": ["mpd", "network", "cpu", "backlight", "pulseaudio"],
+	"modules-right": ["tray", "network", "cpu", "backlight", "pulseaudio"],
 
 	"hyprland/workspaces": {
 		"disable-scroll": true,
@@ -12,26 +18,41 @@
 		"on-click": "activate",
 		"format": "{icon}",
 		"format-icons": {
-			"active": "",
-			"default": "",
-			"urgent": ""
+			"active": "<span font_weight=\"normal\"></span>",
+			"default": "<span font_weight=\"normal\"></span>",
+			"urgent": ""
 		},
 	},
 
 	"clock": {
-		"format": "{:󰥔  %I:%M %p}",
+		"format": "{: %I:%M %p}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
 	
     "custom/separator": {
     	"tooltip": false,
-    	"format": "󰇘"
+    	"format": ""
     },
 
     "clock#2": {
-    	"format": "{:󰃭  %a - %b %e}",
+    	"format": "{: %a, %b %e}",
     	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
     },
+
+    "custom/player": {
+    	"format": " {}",
+	    "max-length": 200,
+	    "exec-if": "pgrep spotify",
+	    "exec-on-event": "on-click",
+	    "interval": 1,
+	    "return-type": "json",
+	    "on-click": "playerctl -p spotify play-pause",
+	    "on-scroll-up": "playerctl -p spotify previous",
+	    "on-scroll-down": "playerctl -p spotify next",
+	    "tooltip": true,
+	    "escape": true,
+	    "exec": "$HOME/.config/waybar/scripts/player.sh"
+  },
 
     "mpd#2": {
         "format": "" ,
@@ -74,43 +95,43 @@
 	"mpd": {
         "tooltip": true,
         "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
-        "format": "󰝚  {elapsedTime:%M:%S}",
-        "format-disconnected": "󰝛  MPD Disconnected",
-        "format-stopped": "󰝚",
+        "format": "  {elapsedTime:%M:%S}",
+        "format-disconnected": " MPD Disconnected",
+        "format-stopped": "",
         "on-click": "mpc toggle",
         "interval": 1
     },		
 
 	"network": {
 		"tooltip": true,
-		"format-wifi": "  {essid}",
-		"format-ethernet": "󰈀  {ipaddr}",
-		"tooltip-format": "󰩠  {ipaddr} | 󰇚  {bandwidthDownBits} | 󰕒  {bandwidthUpBits}",
+		"format-wifi": " {essid}",
+		"format-ethernet": " {ipaddr}",
+		"tooltip-format": " {ipaddr} |  {bandwidthDownBits} |  {bandwidthUpBits}",
 		"interval": 3
 	},
 
 	"cpu": {
 		"tooltip": false,
-		"format": "  {usage}%",
+		"format": " {usage}%",
 		"interval": 3
 	},
 
 	"backlight": {
 		"tooltip": false,
-		"format": "{icon}  {percent}%",
-		"format-icons": ["󰃞", "󰃟", "󰃠"]
+		"format": "{icon} {percent}%",
+		"format-icons": ["<span font_weight=\"normal\"></span>", "<span font_weight=\"bold\"></span>"]
 	},
 
     "pulseaudio": {
     	"tooltip": false,
     	"on-click": "pavucontrol",
 		"scroll-step": 5,
-		"format": "{icon}  {volume}%",
-		"format-muted": "󰖁",
+		"format": "{icon} {volume}%",
+		"format-muted": "",
 		"format-icons": {
 			"headphone": "",
-            "headset": "󰋎",
-            "default": ["󰕿", "󰖀", "󰕾"]
+            "headset": "",
+            "default": ["", ""]
         }
 	}
 }

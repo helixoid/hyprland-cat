@@ -1,11 +1,14 @@
 @import "mocha.css";
 * {
-	font-family: "Symbols Nerd Font Mono, JetBrains Mono ExtraBold";
+	font-family: "Noto Sans,Font Awesome 6 Free";
 	font-size: 18px;
+	font-weight: bold;
 }
 
 window#waybar {
-	background: transparent;
+	border: 3px solid @flamingo;
+	border-radius: 10px;
+	background: rgba(30, 30, 46, 0.5);
 }
 
 tooltip {
@@ -16,17 +19,10 @@ tooltip {
 	border-color: @blue;
 }
 
-#workspaces {
-	margin-top: 5px;
-	margin-bottom: 0px;
-	padding-left: 15px;
-	padding-right: 15px;
-	border-radius: 8px;
-	background: @base;
-}
-
 #workspaces button {
 	color: @yellow;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #workspaces button.active { 
@@ -37,154 +33,80 @@ tooltip {
 	color: @red;
 }
 
-#workspaces button:hover { 
-	box-shadow: inherit;
-	text-shadow: inherit;
-	transition: none;
+#workspaces button.hover {
 	color: @white;
 }
 
-#clock { 
-	margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 5px;
-	padding-left: 15px;
-	padding-right: 0px;
-	border-radius: 8px 0px 0px 8px;
-	transition: none;
+#clock {
 	color: @red;
-	background: @base;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
 }
 
 #custom-separator {
-    margin-top: 5px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	padding-left: 15px;
-	padding-right: 15px;
-	border-radius: 0px;
-	transition: none;
 	color: @white;
-	background: @base;
 }
 
 #clock.2 {
-    margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-left: 0px;
-	padding-right: 15px;
-	border-radius: 0px 8px 8px 0px;
-	transition: none;
 	color: @teal;
-	background: @base;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #mpd.2 {
-    margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 5px;
-	margin-right: 0px;
-	padding-left: 15px;
-	padding-right: 0px;
-	border-radius: 8px 0px 0px 8px;
-	transition: none;
 	color: @mauve;
-	background: @base;
 }
 
 #mpd.3 {
-    margin-top: 5px;
-	margin-bottom: 0px;
-	margin-right: 0px;
-	padding-left: 15px;
-	padding-right: 15px;
-	border-radius: 0px;
-	transition: none;
 	color: @mauve;
-	background: @base;
 }
 
 #mpd.4 {
-    margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-left: 0px;
-	padding-right: 15px;
-	border-radius: 0px 8px 8px 0px;
-	transition: none;
 	color: @mauve;
-	background: @base;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #tray {
-	margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
-	border-radius: 8px;
-	transition: none;
 	color: @white;
-	background: @base;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#custom-player {
+	color: @green;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #mpd {
-    margin-top: 5px;
-	margin-bottom: 0px;
-	margin-right: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
-	border-radius: 8px;
-	transition: none;
 	color: @mauve;
-	background: @base;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #network {
-	margin-top: 5px;
-	margin-bottom: 0px;
-	padding-left: 15px;
-	padding-right: 0px;
-	border-radius: 8px 0px 0px 8px;
-	transition: none;
 	color: @teal;
-	background: @base;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #cpu {
-	margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-left: 15px;
-	padding-right: 0px;
-	border-radius: 0px;
-	transition: none;
 	color: @red;
-	background: @base;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #backlight {
-	margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-left: 15px;
-	padding-right: 0px;
-	border-radius: 0px;
-	transition: none;
 	color: @sky;
-	background: @base;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #pulseaudio {
-	margin-top: 5px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
-	border-radius: 0px 8px 8px 0px;
-	transition: none;
 	color: @pink;
-	background: @base;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
 }
