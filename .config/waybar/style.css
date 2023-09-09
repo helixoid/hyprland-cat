@@ -1,5 +1,6 @@
 @import "mocha.css";
 * {
+	all: unset; /*this is really important to isolate waybar from gtk*/
 	font-family: "Noto Sans, Font Awesome 6 Free";
 	font-size: 18px;
 	font-weight: bold;
@@ -28,25 +29,15 @@ tooltip {
 }
 
 #workspaces button.active { 
-	color: @green;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	color: @sky;
 }
 
 #workspaces button.urgent {
 	color: @red;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-#workspaces button.hover {
-	color: @white;
-	padding-top: 5px;
-	padding-bottom: 5px;
 }
 
 #clock.2 {
-	color: @peach;
+	color: @maroon;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 15px;
@@ -59,7 +50,7 @@ tooltip {
 }
 
 #clock {
-	color: @pink;
+	color: @green;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -107,13 +98,13 @@ tooltip {
 }
 
 #cpu {
-	color: @red;
+	color: @maroon;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
 
 #backlight {
-	color: @sky;
+	color: @peach;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }

@@ -17,12 +17,12 @@
 		"all-outputs": true,
 		"sort-by-number": true,
 		"on-click": "activate",
-		"format": "{icon}",
+		"format": " {icon} ",
 		"format-icons": {
 			"active": "<span font_weight=\"normal\"></span>",
 			"default": "<span font_weight=\"normal\"></span>",
 			"urgent": ""
-		},
+		}
 	},
 
 	"clock": {
