@@ -8,15 +8,17 @@
 window#waybar {
 	border: 3px solid @flamingo;
 	border-radius: 10px;
-	background: rgba(30, 30, 46, 0.5);
+	background: @base;
 }
 
 tooltip {
-	background: #1e1e2e;
-	border-radius: 8px;
+	background: @base;
+	border-radius: 10px;
 	border-width: 3px;
 	border-style: solid;
 	border-color: @blue;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #workspaces button {
@@ -27,20 +29,27 @@ tooltip {
 
 #workspaces button.active { 
 	color: @green;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #workspaces button.urgent {
 	color: @red;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #workspaces button.hover {
 	color: @white;
-}
-
-#clock {
-	color: @red;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+#clock.2 {
+	color: @peach;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
 }
 
 #custom-separator {
@@ -49,19 +58,22 @@ tooltip {
 	padding-bottom: 5px;
 }
 
-#clock.2 {
-	color: @teal;
+#clock {
+	color: @pink;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	padding-left: 15px;
 }
 
 #mpd.2 {
 	color: @mauve;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #mpd.3 {
 	color: @mauve;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 #mpd.4 {
