@@ -13,7 +13,7 @@ window#waybar {
 }
 
 tooltip {
-	background: @base;
+	background: @tooltip;
 	border-radius: 10px;
 	border-width: 3px;
 	border-style: solid;
