@@ -1,12 +1,4 @@
-/*
-*
-* Catppuccin Mocha palette
-* Maintainer: rubyowo
-*
-*/
-
-@define-color base   rgba(30, 30, 46, 0);
-@define-color tooltip   rgba(30, 30, 46, 0.8);
+@define-color base   rgba(30, 30, 46, 0.05);
 @define-color mantle #181825;
 @define-color crust  #11111b;
 
@@ -23,7 +15,6 @@
 @define-color overlay2 #9399b2;
 
 @define-color blue      #89b4fa;
-@define-color white     #FFFFFF;
 @define-color lavender  #b4befe;
 @define-color sapphire  #74c7ec;
 @define-color sky       #89dceb;
