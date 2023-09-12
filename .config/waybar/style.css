@@ -2,30 +2,30 @@
 * {
 	all: unset; /*this is really important to isolate waybar from gtk*/
 	font-family: "Noto Sans, Font Awesome 6 Free";
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 }
 
 window#waybar {
 	border: 2px solid @flamingo;
-	border-radius: 10px;
+	border-radius: 8px;
 	background: @base;
 }
 
 tooltip {
 	background: @tooltip;
-	border-radius: 10px;
+	border-radius: 8px;
 	border-width: 3px;
 	border-style: solid;
 	border-color: @blue;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #workspaces button {
 	color: @yellow;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #workspaces button.active { 
@@ -38,80 +38,80 @@ tooltip {
 
 #clock.2 {
 	color: @maroon;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 13px;
 }
 
 #custom-separator {
 	color: @white;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #clock {
-	color: @green;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	color: @yellow;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #mpd.2 {
 	color: @mauve;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #mpd.3 {
 	color: @mauve;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #mpd.4 {
 	color: @mauve;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #tray {
 	color: @white;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #custom-player {
 	color: @green;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #mpd {
 	color: @mauve;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #network {
 	color: @teal;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #cpu {
 	color: @maroon;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #backlight {
 	color: @peach;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
 #pulseaudio {
 	color: @pink;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 13px;
 }
