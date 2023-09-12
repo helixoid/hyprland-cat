@@ -1,4 +1,4 @@
-/* For Icons Alignments use "<span font_family='Material Icons' rise='-4000' size='large'>" before putting icons in format section. */
+// For Icons Alignments use "<span font_family='Material Icons' rise='-4000' size='large'>" before putting icons in format section.
 
 {
 	"layer": "top",
