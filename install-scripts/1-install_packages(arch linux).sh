@@ -7,7 +7,7 @@ paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp
 
 paru -S --needed --noconfirm kitty swaylock-effects kvantum qt5ct qt6ct 
 
-paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland transmission-cli telegram-desktop
+paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland telegram-desktop
 
 paru -S --needed --noconfirm swayidle swaybg python-geoip swaync
 
