@@ -1,11 +1,11 @@
 {
-    "alt-speed-down": 50,
+    "alt-speed-down": 1603270924223802422,
     "alt-speed-enabled": false,
     "alt-speed-time-begin": 540,
     "alt-speed-time-day": 127,
     "alt-speed-time-enabled": false,
     "alt-speed-time-end": 1020,
-    "alt-speed-up": 50,
+    "alt-speed-up": 9223372036854775807,
     "announce-ip": "",
     "announce-ip-enabled": false,
     "anti-brute-force-enabled": false,
@@ -30,7 +30,7 @@
     "peer-congestion-algorithm": "",
     "peer-id-ttl-hours": 6,
     "peer-limit-global": 5000,
-    "peer-limit-per-torrent": 100,
+    "peer-limit-per-torrent": 65535,
     "peer-port": 51413,
     "peer-port-random-high": 65535,
     "peer-port-random-low": 49152,
@@ -76,5 +76,5 @@
     "trash-original-torrent-files": false,
     "umask": "022",
     "upload-slots-per-torrent": 14,
-    "utp-enabled": true
+    "utp-enabled": false
 }

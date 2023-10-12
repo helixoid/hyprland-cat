@@ -942,3 +942,262 @@ WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedeskto
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
 WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Sep 22 23:55 : update: removing Doraemon no Uta - Osugi Kumiko.ogg
+Sep 22 23:55 : update: added /Akon - So Blue.flac
+Sep 22 23:55 : update: added /Brook - Binks' Sake.flac
+Sep 22 23:55 : update: added /COLORs - SawanoHiroyuki[nZk].flac
+Sep 22 23:55 : update: added /Doraemon Ending Song.mp3
+Sep 22 23:55 : update: added /Doraemon Song.mp3
+Sep 22 23:55 : update: added /Flamingo.flac
+Sep 22 23:55 : update: added /HALCA - Renai millimeter film.flac
+Sep 22 23:55 : update: added /Lemon.flac
+Sep 22 23:55 : update: added /Rent-a-Girlfreind ED-3-エンドロール.flac
+Sep 22 23:55 : update: added /The Peak - Sekai No Owari.flac
+Sep 22 23:55 : update: added /Zom100 OP.flac
+Sep 22 23:55 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 23 00:00 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 23 00:06 : player: played "The Peak - Sekai No Owari.flac"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Sep 23 13:15 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 23 13:18 : player: played "The Peak - Sekai No Owari.flac"
+Sep 23 13:19 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 23 14:15 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 23 14:18 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Sep 23 14:25 : player: played "MIMiNARI - 言えない.ogg"
+Sep 23 14:31 : player: played "The Peak - Sekai No Owari.flac"
+Sep 23 14:31 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Sep 23 23:17 : update: added /first death.flac
+Sep 23 23:18 : update: removing TK from Ling tosite sigure - first death.ogg
+Sep 23 23:18 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 23 23:23 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 23 23:30 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Sep 25 23:49 : player: played "The Peak - Sekai No Owari.flac"
+Sep 26 09:17 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 26 09:20 : player: played "The Peak - Sekai No Owari.flac"
+Sep 26 09:24 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Sep 26 09:29 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 26 09:33 : player: played "The Peak - Sekai No Owari.flac"
+Sep 26 09:33 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 26 09:47 : player: played "RADWIMPS - Suzume.ogg"
+Sep 26 10:02 : player: played "RADWIMPS - Suzume.ogg"
+Sep 26 17:55 : update: removing RADWIMPS - Suzume.ogg
+Sep 26 17:55 : update: added /27. すずめ.flac
+Sep 26 17:55 : update: removing 27. すずめ.flac
+Sep 26 17:55 : update: added /Suzume.flac
+Sep 26 17:55 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 26 18:03 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 26 18:07 : player: played "The Peak - Sekai No Owari.flac"
+Sep 26 18:07 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Sep 26 20:04 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 26 20:08 : player: played "The Peak - Sekai No Owari.flac"
+Sep 26 20:15 : player: played "One day.flac"
+Sep 26 20:19 : player: played "Suzume.flac"
+Sep 26 22:30 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 26 22:34 : player: played "The Peak - Sekai No Owari.flac"
+Sep 26 22:38 : player: played "Suzume.flac"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Sep 27 00:06 : player: played "Anonymouz - River.ogg"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Sep 28 00:04 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 28 00:08 : player: played "The Peak - Sekai No Owari.flac"
+Sep 28 00:09 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Sep 28 09:08 : player: played "The Peak - Sekai No Owari.flac"
+Sep 28 09:11 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Sep 28 09:15 : player: played "first death.flac"
+Sep 28 09:18 : player: played "MIMiNARI - 言えない.ogg"
+Sep 28 09:19 : player: played "ano - ちゅ、多様性。.ogg"
+Sep 28 10:43 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 28 10:44 : player: played "The Peak - Sekai No Owari.flac"
+Sep 28 13:31 : player: played "One day.flac"
+Sep 28 13:35 : player: played "Suzume.flac"
+Sep 28 13:39 : player: played "Brook - Binks' Sake.flac"
+Sep 28 13:42 : player: played "One day.flac"
+Sep 28 14:17 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 28 14:21 : player: played "Creepy Nuts - ロスタイム.ogg"
+Sep 29 13:13 : player: played "The Peak - Sekai No Owari.flac"
+Sep 29 13:16 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Sep 29 23:26 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Sep 29 23:34 : player: played "One day.flac"
+Sep 29 23:38 : player: played "Suzume.flac"
+Sep 30 09:34 : update: added /Cry Baby.flac
+Sep 30 09:34 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 30 09:34 : update: removing OFFICIAL HIGE DANDISM - Cry Baby.ogg
+Sep 30 09:34 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 30 09:34 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 30 09:34 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 30 09:34 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 30 09:34 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 30 09:34 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 30 09:34 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Sep 30 09:38 : player: played "Cry Baby.flac"
+Sep 30 09:42 : player: played "The Peak - Sekai No Owari.flac"
+Sep 30 09:45 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Sep 30 09:49 : player: played "first death.flac"
+Sep 30 09:53 : player: played "MIMiNARI - 言えない.ogg"
+Sep 30 09:56 : player: played "ano - ちゅ、多様性。.ogg"
+Sep 30 09:59 : player: played "Anonymouz - River.ogg"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 02 08:29 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 03 15:57 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Oct 03 16:01 : player: played "The Peak - Sekai No Owari.flac"
+Oct 03 16:05 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Oct 03 16:07 : player: played "first death.flac"
+Oct 03 16:12 : player: played "One day.flac"
+Oct 03 16:15 : player: played "Suzume.flac"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 04 09:31 : player: played "The Peak - Sekai No Owari.flac"
+Oct 04 09:31 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Oct 05 13:02 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Oct 05 13:08 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Oct 05 13:15 : player: played "The Peak - Sekai No Owari.flac"
+Oct 05 13:21 : player: played "One day.flac"
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Voyage - Beyond.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Voyage - Time.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - Finding The Edge.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - Lunar.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - Interpolation.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - Departure.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - Moon Dust.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - The Traveler.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - Interstellar.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - Solar Wind.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - Odyssey.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Foudroie - Journey.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Fields.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/A.L.I.S.O.N - Seagulls.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/A.L.I.S.O.N - Screens.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Voyage - Paradise.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Dissolve.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Drift.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Horizon.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Bedrock.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Parallel.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Interlude.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Phase.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Eclipse.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/A.L.I.S.O.N - Continuity.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Voyage - Enter.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Voyage - Dream State.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Emil Rottmayer - Mega.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Emil Rottmayer - W.A.V.E_.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Emil Rottmayer - K.E.Y.S.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Emil Rottmayer - S.O.L.O.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Emil Rottmayer - Descend.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Return.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Stardust.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Distant.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Void.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Pools.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - City Lights.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Reflect.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Lost Signal.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Aurora.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - 4am.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Voyage - Aura.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Pandora.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Winter.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Fantasia.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Shuto Expressway.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Umbra.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Light Cycles.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Cirrus.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Astral.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Taking Flight.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Voyage - Allude.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Krosia - Sonar.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Novus Sana - Sound of the Sky.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Unfound - Heaven.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/oDDling - Reverie.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Unfound - Rise.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/DavZ - Mindless.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/GRAEDA - Barranca.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Distance.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Forhill - Descent.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/MEGAS - Stargazer.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Xtract - Audiotool Day 2016.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/GRAEDA - Deluge.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/oDDling - Divide.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Monolism - Infinite Space.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/KING PALM - Coast.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Evolve.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/EVANS - third planet.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Krosia - Crystal Bells.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/KING PALM - Journey.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/VIQ - Orbit.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/A.L.I.S.O.N - Nightride - Revisited.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Voyage - Center Point.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/DEPARTURE - Imagine.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/KING PALM - Luxury.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Neon Galaxy - Portal.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Monolism - Transparent.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Emil Rottmayer - Elevate.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/oDDling - Void.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Krosia - Last Horizon.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/A.L.I.S.O.N - Subtract.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Remain.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/oDDling - Drifting.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Snowfall.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Lunar.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Polaris.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Voyage - Moon Phase.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Downtown Binary - Atlantis.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/Hotel Pools - Limits.ogg
+Oct 05 13:44 : update: removing Chill Synthwave 🌌/A.L.I.S.O.N - always in my dreams.ogg
+Oct 06 00:21 : player: played "The Peak - Sekai No Owari.flac"
+Oct 07 09:07 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Oct 07 09:13 : player: played "Anonymouz - River.ogg"
+Oct 07 09:26 : player: played "Post Malone - Sunflower - Spider-Man_ Into the Spider-Verse.ogg"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 07 20:59 : player: played "The Peak - Sekai No Owari.flac"
+Oct 07 21:09 : player: played "The Peak - Sekai No Owari.flac"
+Oct 07 21:12 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
+Oct 07 21:16 : player: played "first death.flac"
+Oct 07 21:20 : player: played "MIMiNARI - 言えない.ogg"
+Oct 07 21:23 : player: played "ano - ちゅ、多様性。.ogg"
+Oct 07 21:26 : player: played "Anonymouz - River.ogg"
+Oct 07 21:29 : player: played "Brook - Binks' Sake.flac"
+Oct 07 21:34 : player: played "One day.flac"
+Oct 07 21:38 : player: played "Suzume.flac"
+Oct 07 21:41 : player: played "Creepy Nuts - ロスタイム.ogg"
+Oct 07 21:45 : player: played "Cry Baby.flac"
+Oct 07 21:48 : player: played "Post Malone - Sunflower - Spider-Man_ Into the Spider-Verse.ogg"
+Oct 07 21:52 : exception: Failed to open /home/ayush/.config/mpd/playlists: No such file or directory
+Oct 07 21:58 : player: played "Abhijeet - Hum Nahin.ogg"
+Oct 10 20:00 : player: played "COLORs - SawanoHiroyuki[nZk].flac"
+Oct 10 20:04 : player: played "The Peak - Sekai No Owari.flac"
+Oct 10 20:04 : player: played "Miley Cyrus - Party In The U.S.A_.ogg"
