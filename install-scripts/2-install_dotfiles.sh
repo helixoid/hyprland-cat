@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+xdg-user-dirs-update
+
 # Installing Dotfiles
 cd $HOME/hyprland-cat
 cp -R .config ~/

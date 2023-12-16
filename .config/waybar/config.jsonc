@@ -10,7 +10,7 @@
 	"exclusive": true,
 	"modules-left": ["clock#2", "custom/separator", "clock", "custom/player"],
 	"modules-center": ["hyprland/workspaces"],
-	"modules-right": ["tray", "network", "cpu", "backlight", "pulseaudio"],
+	"modules-right": ["tray", "network", "cpu", "backlight", "pulseaudio", "battery"],
 
 	"hyprland/workspaces": {
 		"disable-scroll": true,
@@ -134,5 +134,16 @@
             "headset": "",
             "default": ["", ""]
         }
-	}
+	},
+
+	"battery": {
+		"states": {
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon} {capacity}%",
+		"interval": 60,
+		"format-charging": " {capacity}%",
+		"format-icons": ["", "", "", "", ""]
+	},
 }

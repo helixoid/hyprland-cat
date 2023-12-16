@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
 # Installing Necessary Packages
-paru -S --needed --noconfirm hyprland waybar rofi-lbonn-wayland-git xdg-desktop-portal-hyprland
+paru -S --needed --noconfirm hyprland waybar rofi-lbonn-wayland-git xdg-desktop-portal-hyprland linux-headers
 
-paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp
+paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp cava-git
 
-paru -S --needed --noconfirm kitty swaylock-effects kvantum qt5ct qt6ct 
+paru -S --needed --noconfirm kitty swaylock kvantum qt5ct qt6ct downgrade
 
 paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland telegram-desktop
 
 paru -S --needed --noconfirm swayidle swaybg python-geoip swaync
 
-paru -S --needed --noconfirm okular neofetch network-manager-applet bottom
+paru -S --needed --noconfirm neofetch imagemagick network-manager-applet bottom
 
 paru -S --needed --noconfirm pavucontrol vnstat wl-clipboard cliphist gnome-disk-utility
 
@@ -23,13 +23,19 @@ paru -S --needed --noconfirm  polkit-kde-agent tremc-git grim bemoji
 
 paru -S --needed --noconfirm slurp swappy newsboat bat
 
-paru -S --needed --noconfirm papirus-icon-theme otf-font-awesome
+paru -S --needed --noconfirm papirus-icon-theme otf-font-awesome ttf-nerd-fonts-symbols
+
+paru -S --needed --noconfirm thunar tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin file-roller
+
+paru -S --needed --noconfirm gvfs gvfs-afc gvfs-mtp xdg-user-dirs ffmpegthumbnailer
+
+paru -S --needed --noconfirm gst-plugins-good gst-plugins-bad gst-plugins-ugly
 
 #paru -S --needed --noconfirm sddm plymouth sddm-theme-sugar-candy-git
 
 # Installing Intel Hardware Decoding Driver
 paru -S --needed --noconfirm intel-media-driver
-#paru -S --needed --noconfirm intel-gpu-tools
+paru -S --needed --noconfirm intel-gpu-tools
 
 # Removing Extra Packages
 paru -Rns vim

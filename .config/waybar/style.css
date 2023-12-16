@@ -113,5 +113,19 @@ tooltip {
 	color: @pink;
 	padding-top: 3px;
 	padding-bottom: 3px;
+}
+
+#battery {
+	color: @white;
+	padding-top: 3px;
+	padding-bottom: 3px;
 	padding-right: 13px;
+}
+
+#battery.warning {
+	color: @yellow;
+}
+
+#battery.critical {
+	color: @red;
 }
