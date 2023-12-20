@@ -21,7 +21,7 @@ paru -S --needed --noconfirm noto-fonts noto-fonts-cjk noto-fonts-extra noto-fon
 
 paru -S --needed --noconfirm  polkit-kde-agent tremc-git grim bemoji
 
-paru -S --needed --noconfirm slurp swappy newsboat bat
+paru -S --needed --noconfirm slurp swappy newsboat bat lsd
 
 paru -S --needed --noconfirm papirus-icon-theme otf-font-awesome ttf-nerd-fonts-symbols
 
