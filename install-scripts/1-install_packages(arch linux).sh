@@ -9,7 +9,7 @@ paru -S --needed --noconfirm kitty swaylock kvantum qt5ct qt6ct downgrade
 
 paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland telegram-desktop
 
-paru -S --needed --noconfirm swayidle swaybg python-geoip swaync
+paru -S --needed --noconfirm swayidle swaybg python-geoip swaync waypaper-git
 
 paru -S --needed --noconfirm neofetch imagemagick network-manager-applet bottom
 
