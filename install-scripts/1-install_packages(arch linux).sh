@@ -5,7 +5,7 @@ paru -S --needed --noconfirm hyprland waybar rofi-lbonn-wayland-git xdg-desktop-
 
 paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp cava-git
 
-paru -S --needed --noconfirm kitty swaylock kvantum qt5ct qt6ct downgrade
+paru -S --needed --noconfirm kitty swaylock-effects kvantum qt5ct qt6ct downgrade
 
 paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland telegram-desktop
 
