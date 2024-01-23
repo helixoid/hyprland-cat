@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# Installing Paru (Vanilla Arch)
 sudo pacman -Syy
 sudo pacman -S --needed --noconfirm git
 
@@ -9,8 +8,3 @@ git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin
 makepkg -si 
 cd
-
-# Endeavour OS
-#yay -S paru-bin
-#paru -Rns yay
-#paru -Rns xterm

@@ -7,9 +7,9 @@ paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp cava-git
 
 paru -S --needed --noconfirm kitty swaylock-effects kvantum qt5ct qt6ct downgrade
 
-paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland telegram-desktop
+paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland
 
-paru -S --needed --noconfirm swayidle swaybg python-geoip swaync waypaper-git
+paru -S --needed --noconfirm swayidle swww python-geoip swaync waypaper-git
 
 paru -S --needed --noconfirm neofetch imagemagick network-manager-applet bottom
 
@@ -19,7 +19,7 @@ paru -S --needed --noconfirm fish starship firewalld brightnessctl imv
 
 paru -S --needed --noconfirm noto-fonts noto-fonts-cjk noto-fonts-extra noto-fonts-emoji
 
-paru -S --needed --noconfirm  polkit-kde-agent tremc-git grim bemoji
+paru -S --needed --noconfirm polkit-kde-agent tremc-git grim bemoji
 
 paru -S --needed --noconfirm slurp swappy newsboat bat lsd speech-dispatcher
 
@@ -31,11 +31,16 @@ paru -S --needed --noconfirm gvfs gvfs-afc gvfs-mtp xdg-user-dirs ffmpegthumbnai
 
 paru -S --needed --noconfirm gst-plugins-good gst-plugins-bad gst-plugins-ugly
 
+paru -S --needed --noconfirm thermald power-profiles-daemon blueman nvtop
+
 #paru -S --needed --noconfirm sddm plymouth sddm-theme-sugar-candy-git
 
 # Installing Intel Hardware Decoding Driver
-paru -S --needed --noconfirm intel-media-driver
-paru -S --needed --noconfirm intel-gpu-tools
+#paru -S --needed --noconfirm intel-media-driver
+#paru -S --needed --noconfirm intel-gpu-tools
+
+# Installing nVidia Drivers
+#paru -S --needed --noconfirm nvidia-dkms nvidia-utils nvidia-settings lib32-nvidia-utils
 
 # Removing Extra Packages
 paru -Rns vim
