@@ -12,3 +12,5 @@ sudo systemctl enable bluetooth
 
 # Changing the default shell
 chsh -s $(which fish)
+
+sudo reboot
