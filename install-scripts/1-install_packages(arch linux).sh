@@ -7,7 +7,7 @@ paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp cava-git
 
 paru -S --needed --noconfirm kitty swaylock-effects qt5ct qt6ct downgrade
 
-paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland
+paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland breeze
 
 paru -S --needed --noconfirm swayidle swww python-geoip swaync waypaper-git
 
