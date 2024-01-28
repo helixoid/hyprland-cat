@@ -3,8 +3,6 @@
 # Starting Services
 systemctl enable --user mpd
 sudo systemctl enable firewalld
-#sudo systemctl enable sddm
-#sudo systemctl set-default graphical.target
 sudo systemctl enable vnstat
 sudo systemctl enable thermald
 sudo systemctl enable power-profiles-daemon
