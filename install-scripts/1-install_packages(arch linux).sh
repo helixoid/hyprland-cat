@@ -25,7 +25,7 @@ paru -S --needed --noconfirm slurp swappy newsboat bat lsd speech-dispatcher
 
 paru -S --needed --noconfirm papirus-icon-theme otf-font-awesome ttf-nerd-fonts-symbols
 
-paru -S --needed --noconfirm thunar tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin file-roller
+#paru -S --needed --noconfirm thunar tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin file-roller
 
 paru -S --needed --noconfirm gvfs gvfs-afc gvfs-mtp xdg-user-dirs ffmpegthumbnailer blueman
 
@@ -33,7 +33,7 @@ paru -S --needed --noconfirm gst-plugins-good gst-plugins-bad gst-plugins-ugly
 
 #paru -S --needed --noconfirm flatpak xdg-desktop-portal-gtk avizo-git
 
-paru -S --needed --noconfirm zathura zathura-pdf-mupdf zathura-cb
+paru -S --needed --noconfirm zathura zathura-pdf-mupdf zathura-cb yazi
 
 #paru -S --needed --noconfirm kvantum qt5ct qt6ct
 
