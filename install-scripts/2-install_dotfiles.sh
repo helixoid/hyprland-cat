@@ -2,6 +2,14 @@
 
 xdg-user-dirs-update
 
+xdg-mime default org.pwmt.zathura.desktop application/pdf
+
+xdg-mime default imv-dir.desktop image/png
+
+xdg-mime default imv-dir.desktop image/webp
+
+xdg-mime default imv-dir.desktop image/jpg
+
 # Installing Dotfiles
 cd $HOME/hyprland-cat
 cp -R .config ~/

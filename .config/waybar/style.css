@@ -113,13 +113,14 @@ tooltip {
 	color: @pink;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	padding-right: 13px;  /* Diable this line if using laptop with battery */
 }
 
 #battery {
 	color: @white;
 	padding-top: 3px;
 	padding-bottom: 3px;
-	padding-right: 13px;
+	/*padding-right: 13px;*/  /* Enable this line if using laptop with battery */
 }
 
 #battery.warning {
