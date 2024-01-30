@@ -5,7 +5,7 @@ paru -S --needed --noconfirm hyprland waybar rofi-lbonn-wayland-git xdg-desktop-
 
 paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp cava-git
 
-paru -S --needed --noconfirm kitty swaylock-effects downgrade
+paru -S --needed --noconfirm kitty swaylock-effects downgrade blueman
 
 paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland 
 
@@ -27,7 +27,7 @@ paru -S --needed --noconfirm papirus-icon-theme otf-font-awesome ttf-nerd-fonts-
 
 #paru -S --needed --noconfirm thunar tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin file-roller
 
-paru -S --needed --noconfirm gvfs gvfs-afc gvfs-mtp xdg-user-dirs ffmpegthumbnailer blueman
+paru -S --needed --noconfirm gvfs gvfs-afc gvfs-mtp xdg-user-dirs ffmpegthumbnailer
 
 paru -S --needed --noconfirm gst-plugins-good gst-plugins-bad gst-plugins-ugly
 

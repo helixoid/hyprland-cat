@@ -13,7 +13,6 @@ xdg-mime default imv-dir.desktop image/jpg
 # Installing Dotfiles
 cd $HOME/hyprland-cat
 cp -R .config ~/
-cp -R .newsboat ~/
 cp -R Wallpapers ~/
 cd
 
