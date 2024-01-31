@@ -3,7 +3,7 @@
 # Installing Necessary Packages
 paru -S --needed --noconfirm hyprland waybar rofi-lbonn-wayland-git xdg-desktop-portal-hyprland linux-headers
 
-paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp cava-git
+paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp cava
 
 paru -S --needed --noconfirm kitty swaylock-effects downgrade blueman
 
