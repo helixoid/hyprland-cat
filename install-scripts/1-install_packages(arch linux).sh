@@ -11,7 +11,7 @@ paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland
 
 paru -S --needed --noconfirm swayidle swww python-geoip swaync waypaper-git
 
-paru -S --needed --noconfirm neofetch imagemagick network-manager-applet bottom
+paru -S --needed --noconfirm macchina imagemagick network-manager-applet bottom
 
 paru -S --needed --noconfirm pavucontrol vnstat wl-clipboard cliphist
 
@@ -31,9 +31,11 @@ paru -S --needed --noconfirm gvfs gvfs-afc gvfs-mtp xdg-user-dirs ffmpegthumbnai
 
 paru -S --needed --noconfirm gst-plugins-good gst-plugins-bad gst-plugins-ugly
 
-#paru -S --needed --noconfirm flatpak xdg-desktop-portal-gtk avizo-git
+#paru -S --needed --noconfirm flatpak xdg-desktop-portal-gtk avizo-git onefetch
 
-paru -S --needed --noconfirm zathura zathura-pdf-mupdf zathura-cb yazi
+paru -S --needed --noconfirm zathura zathura-pdf-mupdf zathura-cb yazi fd
+
+paru -S --needed --npconfirm fzf poppler zoxide ripgrep
 
 #paru -S --needed --noconfirm kvantum qt5ct qt6ct
 

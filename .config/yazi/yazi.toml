@@ -16,7 +16,7 @@ show_symlink   = true
 tab_size        = 2
 max_width       = 600
 max_height      = 900
-cache_dir       = "$HOME/.cache/yazi"
+cache_dir       = ""
 image_filter    = "triangle"
 image_quality   = 75
 sixel_fraction  = 15
@@ -53,18 +53,29 @@ read = [
 
 [open]
 rules = [
-	{ name = "*/",					use = [ "edit", "open", "reveal" ] },
-	{ mime = "text/*",  			use = [ "edit", "reveal" ] },
-	{ mime = "image/*", 			use = [ "open", "reveal" ] },
-	{ mime = "video/*", 			use = [ "play", "reveal" ] },
-	{ mime = "audio/*", 			use = [ "play", "reveal" ] },
-	{ mime = "inode/x-empty", 		use = [ "edit", "reveal" ] },
-	{ name = "*.cbz",   			use = [ "read", "reveal" ] },
-	{ name = "*.cbr",				use = [ "read", "reveal" ] },
-	{ mime = "application/zip", 	use = [ "extract", "reveal" ] },
-	{ mime = "application/json", 	use = [ "edit", "reveal" ] },
-	{ mime = "*/javascript",     	use = [ "edit", "reveal" ] },
-	{ mime = "*", 					use = [ "open", "reveal" ] },
+	{ name = "*/", use = [ "edit", "open", "reveal" ] },
+	{ name = "*.cbz", use = [ "read", "reveal" ] },
+	{ name = "*.cbr", use = [ "read", "reveal" ] },
+
+	{ mime = "text/*",  use = [ "edit", "reveal" ] },
+	{ mime = "image/*", use = [ "open", "reveal" ] },
+	{ mime = "video/*", use = [ "play", "reveal" ] },
+	{ mime = "audio/*", use = [ "play", "reveal" ] },
+	{ mime = "inode/x-empty", use = [ "edit", "reveal" ] },
+
+	{ mime = "application/json", use = [ "edit", "reveal" ] },
+	{ mime = "*/javascript",     use = [ "edit", "reveal" ] },
+
+	{ mime = "application/zip",             use = [ "extract", "reveal" ] },
+	{ mime = "application/gzip",            use = [ "extract", "reveal" ] },
+	{ mime = "application/x-tar",           use = [ "extract", "reveal" ] },
+	{ mime = "application/x-bzip",          use = [ "extract", "reveal" ] },
+	{ mime = "application/x-bzip2",         use = [ "extract", "reveal" ] },
+	{ mime = "application/x-7z-compressed", use = [ "extract", "reveal" ] },
+	{ mime = "application/x-rar",           use = [ "extract", "reveal" ] },
+	{ mime = "application/xz",              use = [ "extract", "reveal" ] },
+
+	{ mime = "*", use = [ "open", "reveal" ] },
 ]
 
 [tasks]

@@ -10,7 +10,7 @@
 	"exclusive": true,
 	"modules-left": ["clock#2", "custom/separator", "clock", "custom/player"],
 	"modules-center": ["hyprland/workspaces"],
-	"modules-right": ["tray", "network", "cpu", "backlight", "pulseaudio", "battery"],
+	"modules-right": ["tray", "network", "backlight", "pulseaudio", "battery"],
 
 	"hyprland/workspaces": {
 		"disable-scroll": true,
