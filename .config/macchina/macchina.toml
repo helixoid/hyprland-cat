@@ -47,6 +47,7 @@ theme = "fazzi"
 # Example:
 
 show = [
+  "Machine",
   "Distribution",
   "DesktopEnvironment",
   "Kernel",

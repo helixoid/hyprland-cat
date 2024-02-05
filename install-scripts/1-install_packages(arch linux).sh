@@ -5,7 +5,7 @@ paru -S --needed --noconfirm hyprland waybar rofi-lbonn-wayland-git xdg-desktop-
 
 paru -S --needed --noconfirm nwg-look-bin mpv yt-dlp mpd ncmpcpp cava
 
-paru -S --needed --noconfirm kitty swaylock-effects downgrade blueman
+paru -S --needed --noconfirm wezterm swaylock-effects downgrade blueman
 
 paru -S --needed --noconfirm wlsunset qt5-wayland qt6-wayland 
 
@@ -49,6 +49,7 @@ paru -S --needed --npconfirm fzf poppler zoxide ripgrep
 
 # Removing Extra Packages
 paru -Rns vim
+paru -Rns kitty
 paru -Rns xdg-desktop-portal-gnome
 paru -Rns xdg-desktop-portal-kde
 paru -c

@@ -2,6 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 macchina
 starship init fish | source
+alias hx="helix"
 alias prop="hyprprop | grep -i 'class\|title\|xwayland'"
 alias ls='lsd'
 alias l='ls -l'
