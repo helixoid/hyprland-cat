@@ -1,5 +1,3 @@
-// For Icons Alignments use "<span font_family='Material Icons' rise='-4000' size='large'>" before putting icons in format section.
-
 {
 	"layer": "top",
 	"position": "top",
@@ -8,6 +6,7 @@
 	"margin-right": 5,
 	"spacing": 15,
 	"exclusive": true,
+	// For Icons Alignments use "<span font_family='Material Icons' rise='-4000' size='large'>" before putting icons in format section.
 	"modules-left": ["clock#2", "custom/separator", "clock", "custom/player"],
 	"modules-center": ["hyprland/workspaces"],
 	"modules-right": ["tray", "network", "backlight", "pulseaudio", "battery"],
@@ -27,81 +26,81 @@
 
 	"clock": {
 		"format": "{: %I:%M %p}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-    },
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+	},
 	
-    "custom/separator": {
-    	"tooltip": false,
-    	"format": ""
-    },
+	"custom/separator": {
+		"tooltip": false,
+		"format": ""
+	},
 
-    "clock#2": {
-    	"format": "{: %a - %b %e}",
-    	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-    },
+	"clock#2": {
+		"format": "{: %a - %b %e}",
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+	},
 
-    "custom/player": {
-    	"format": " {}",
-	    "max-length": 200,
-	    "exec-if": "pgrep spotify",
-	    "exec-on-event": "on-click",
-	    "interval": 1,
-	    "return-type": "json",
-	    "on-click": "playerctl -p spotify play-pause",
-	    "on-scroll-up": "playerctl -p spotify previous",
-	    "on-scroll-down": "playerctl -p spotify next",
-	    "tooltip": true,
-	    "escape": true,
-	    "exec": "$HOME/.config/waybar/scripts/player.sh"
-  },
+	"custom/player": {
+		"format": " {}",
+		"max-length": 200,
+		"exec-if": "pgrep spotify",
+		"exec-on-event": "on-click",
+		"interval": 1,
+		"return-type": "json",
+		"on-click": "playerctl -p spotify play-pause",
+		"on-scroll-up": "playerctl -p spotify previous",
+		"on-scroll-down": "playerctl -p spotify next",
+		"tooltip": true,
+		"escape": true,
+		"exec": "$HOME/.config/waybar/scripts/player.sh"
+	},
 
-    "mpd#2": {
-        "format": "" ,
-        "format-disconnected": "",
-        "format-paused": "",
-        "format-stopped": "",
-        "on-click": "mpc -q pause && mpc -q prev && mpc -q start",
-        "interval": 1
-    },
+	"mpd#2": {
+		"format": "" ,
+		"format-disconnected": "",
+		"format-paused": "",
+		"format-stopped": "",
+		"on-click": "mpc -q pause && mpc -q prev && mpc -q start",
+		"interval": 1
+	},
     
-    "mpd#3": {
-        "interval": 1,
-        "format": "{stateIcon}",
-        "format-disconnected": "",
-        "format-paused": "{stateIcon}",
-        "format-stopped": "",
-        "state-icons": {
-            "paused": "",
-            "playing": ""
-        },
-        "on-click": "mpc toggle",
-        "interval": 1
-    },
+	"mpd#3": {
+		"interval": 1,
+		"format": "{stateIcon}",
+		"format-disconnected": "",
+		"format-paused": "{stateIcon}",
+		"format-stopped": "",
+		"state-icons": {
+			"paused": "",
+			"playing": ""
+		},
+		"on-click": "mpc toggle",
+		"interval": 1
+	},
     
-    "mpd#4": {
-        "format": "",
-        "format-disconnected": "",
-        "format-paused": "",
-        "format-stopped": "",
-        "on-click": "mpc -q pause && mpc -q next && mpc -q start",
-        "interval": 1
-    },
+	"mpd#4": {
+		"format": "",
+		"format-disconnected": "",
+		"format-paused": "",
+		"format-stopped": "",
+		"on-click": "mpc -q pause && mpc -q next && mpc -q start",
+		"interval": 1
+	},
 
-    "tray": {
+	"tray": {
 		"tooltip": false,
 		"icon-size": 18,
 		"spacing": 10
 	},
 
 	"mpd": {
-        "tooltip": true,
-        "tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
-        "format": "  {elapsedTime:%M:%S}",
-        "format-disconnected": " MPD Disconnected",
-        "format-stopped": "",
-        "on-click": "mpc toggle",
-        "interval": 1
-    },		
+		"tooltip": true,
+		"tooltip-format": "{artist} - {album} - {title} - Total Time : {totalTime:%M:%S}",
+		"format": "  {elapsedTime:%M:%S}",
+		"format-disconnected": " MPD Disconnected",
+		"format-stopped": "",
+		"on-click": "mpc toggle",
+		"interval": 1
+	},		
 
 	"network": {
 		"tooltip": true,
@@ -123,17 +122,17 @@
 		"format-icons": ["<span font_weight=\"normal\"></span>", "<span font_weight=\"bold\"></span>"]
 	},
 
-    "pulseaudio": {
-    	"tooltip": false,
-    	"on-click": "pavucontrol",
+	"pulseaudio": {
+		"tooltip": false,
+		"on-click": "pavucontrol",
 		"scroll-step": 5,
 		"format": "{icon} {volume}%",
 		"format-muted": "",
 		"format-icons": {
 			"headphone": "",
-            "headset": "",
-            "default": ["", ""]
-        }
+			"headset": "",
+			"default": ["", ""]
+		}
 	},
 
 	"battery": {
