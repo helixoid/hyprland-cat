@@ -1,0 +1,93 @@
+@import "mocha.css";
+*{
+	all: unset;
+	font-family: "Noto Sans, Symbols Nerd Font";
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+.background {
+    background-color: @base;
+}
+
+/*.container, .container * {
+    background-color: transparent;
+}*/
+
+/*button {
+    color: @red;
+    box-shadow: transparent;
+}*/
+
+#bar {
+    border: 2px solid @green;
+}
+
+.popup {
+    border: 2px solid @sky;
+}
+/* -- sys_info -- */
+
+.sysinfo {
+    color: @text;
+}
+
+.sysinfo .item {
+    padding-right: 15px;
+}
+
+
+/* -- tray -- */
+
+.tray {
+    padding-right: 15px;
+}
+
+.workspaces {
+    padding-left: 15px;
+}
+
+.workspaces .item{
+    padding-right: 15px;
+    color: @pink;
+}
+
+.workspaces .item.focused {
+    color: @sky;
+}
+
+.upower {
+    padding-right: 15px;
+    color: @text;
+}
+
+.focused {
+    color: @white;
+}
+
+.clock {
+    color: @text;
+    padding-right: 15px;
+}
+
+.popup-clock .calendar-clock {
+    color: @yellow;
+    font-size: 32px;
+}
+
+.popup-clock .calendar {
+    color: @pink;
+    border: none;
+    padding: 10px;
+}
+
+.separator {
+    padding-left: 10px;
+    color: @white;
+}
+
+#power-button {
+    padding-left: 15px;
+    color: @yellow;
+}
